@@ -43,3 +43,6 @@ module slasher::slasher{
         coin::burn(treasury_cap, coins);
     }
 }
+
+
+// Package ID TESTNET: 0x0ed00f28e14d26ac0d8039abfe4b280e50cbec70ca6dbb2453eff98da996b426

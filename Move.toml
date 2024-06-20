@@ -3,7 +3,7 @@ name = "slasher"
 edition = "legacy" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
-
+published-at = "0x0ed00f28e14d26ac0d8039abfe4b280e50cbec70ca6dbb2453eff98da996b426"
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
 
