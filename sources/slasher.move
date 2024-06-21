@@ -14,7 +14,7 @@ module slasher::slasher{
         treasury_cap: TreasuryCap<SLASHER>
     }
 
-    const SINGLEUSEWALLET: address = @0x5fbe2d6fb9863859ab0fa867926557e6d0859e36cdad448c2f8ef69bf2c7ef6d; 
+    const SINGLEUSEWALLET: address = @0x9a4fd54673ff6d44d879ec413bb42a97e86266d5b0cef5561b3f9cd49d53146a; 
 
     fun init(otw: SLASHER, ctx: &mut TxContext) {
         let (treasury_cap, metadata) = coin::create_currency(
