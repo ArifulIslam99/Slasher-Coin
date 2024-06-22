@@ -1,12 +1,12 @@
 [package]
 name = "slasher"
-published-at = "0x4f2de46a8617d1cb228a419082960cafabf270b186d03f44159d7f84a32f0bea"
+published-at = "0xb84b3d4b993d7622cf562d37994ef828c67a22cb1a7e690adf755da9fc061911"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
 
 [addresses]
-slasher = "0x4f2de46a8617d1cb228a419082960cafabf270b186d03f44159d7f84a32f0bea"
+slasher = "0xb84b3d4b993d7622cf562d37994ef828c67a22cb1a7e690adf755da9fc061911"
 
 
 [dev-dependencies]
